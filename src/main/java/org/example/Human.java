@@ -52,7 +52,7 @@ public class Human implements SportsAffairs {
             System.out.println(name + " успешно прошел дистанцию");
         }
         else {
-            System.out.println(name + " не пробежать дистанцию");
+            System.out.println(name + " не пробежал дистанцию");
         }
     }
 }

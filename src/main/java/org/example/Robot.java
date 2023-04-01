@@ -52,7 +52,7 @@ public class Robot implements SportsAffairs {
             System.out.println("Робот " + name + " успешно прошел дистанцию");
         }
         else {
-            System.out.println("Робот " + name + " не пробежать дистанцию");
+            System.out.println("Робот " + name + " не пробежал дистанцию");
         }
     }
 }

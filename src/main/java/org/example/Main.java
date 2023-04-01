@@ -22,9 +22,9 @@ public class Main {
 
         SportsAffairs[] sportsAffairs = {cat, human, robot};
         System.out.println("\n Участники соревнований:");
-        System.out.println("1. " + "кот" + cat.getName());
+        System.out.println("1. " + "кот " + cat.getName());
         System.out.println("2. " + human.getName());
-        System.out.println("3. " + "Робот" + robot.getName());
+        System.out.println("3. " + "Робот " + robot.getName());
 
         Boolean[] flag = {Cat.flag, Human.flag, Robot.flag};
 
@@ -40,6 +40,8 @@ public class Main {
                 o.jump(hwall[i]);
             }
         }
+        System.out.println("\n Финиш соревнований:");
+
 
         System.out.println("\n Результаты соревнований:");
         for (SportsAffairs o : sportsAffairs) {

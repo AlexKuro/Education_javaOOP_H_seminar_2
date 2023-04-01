@@ -51,7 +51,7 @@ public class Cat implements SportsAffairs {
             System.out.println("Кот " + name + " успешно прошел дистанцию");
         }
         else {
-            System.out.println("Кот " + name + " не пробежать дистанцию");
+            System.out.println("Кот " + name + " не пробежал дистанцию");
         }
     }
 }
